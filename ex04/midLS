@@ -1,0 +1,7 @@
+#!/bin/sh
+
+listagem=$(ls -mFt)
+
+echo "$listagem"
+
+
