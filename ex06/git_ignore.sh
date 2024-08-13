@@ -1,4 +1,4 @@
 #!/bin/sh
-lista=$(git ls-files --others --ignored --exclude-standard)
+lista=$(git status --ignored --short | grep "!!")
 
 echo "$lista"
