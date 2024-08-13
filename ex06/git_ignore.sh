@@ -1,4 +1,3 @@
-#!/bin/sh
-lista=$(git status --ignored --short | grep "!!")
+#!/bin/bash
 
-echo "$lista"
+ls -a | grep "^\."
