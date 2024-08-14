@@ -1,2 +1,2 @@
 #!/bin/bash
-env FT_USER="lukorman" id -Gn
+env FT_USER="daemon" id -Gn
