@@ -1,2 +1,2 @@
 #!/bin/bash
-env FT_USER="daemon" id -Gn
+id -Gn $FT_USER | tr ' ' ',' | tr -d '/n'

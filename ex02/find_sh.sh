@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.sh" | awk -F ".sh" '{print $1}'
+find . -type f -name "*.sh" -exec basename {} .sh \;
