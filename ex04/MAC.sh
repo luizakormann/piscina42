@@ -1,2 +1,2 @@
 #!/bin/bash
-ifconfig -a | grep ether | awk '{print $2}' | cat -e
+ifconfig | grep ether | awk '{print $2}'
