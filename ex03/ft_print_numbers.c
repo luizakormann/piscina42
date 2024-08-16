@@ -6,13 +6,13 @@
 /*   By: lukorman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 22:28:39 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/15 22:36:09 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/15 22:39:34 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_print_numbers(void)
+void	ft_print_numbers(void)
 {
 	int	i;
 
@@ -23,9 +23,8 @@ void ft_print_numbers(void)
 		i++;
 	}
 }
-
-int	main(void)
+/*int	main(void)
 {
 	ft_print_numbers();
 	return (0);
-}
+}*/
