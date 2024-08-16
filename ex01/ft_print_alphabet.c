@@ -6,15 +6,17 @@
 /*   By: lukorman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 17:52:19 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/15 20:37:17 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/15 21:14:39 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
-	int i = 97;
+	int	i;
+
+	i = 97;
 	while (i <= 122)
 	{
 		write(1, &i, 1);
@@ -22,9 +24,9 @@ void ft_print_alphabet(void)
 	}
 }
 
-int main(void)
+/*
+int	main(void)
 {
 	ft_print_alphabet();
-	return(0);
-}
-
+	return (0);
+}*/
