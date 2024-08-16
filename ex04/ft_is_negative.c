@@ -6,7 +6,7 @@
 /*   By: lukorman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 22:41:19 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/15 22:55:21 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/15 22:57:36 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,8 @@ void	ft_is_negative(int n)
 		write (1, "P", 1);
 	}
 }
-
-int	main(void)
+/*int	main(void)
 {
 	ft_is_negative(0);
 	return (0);
-}
+}*/
