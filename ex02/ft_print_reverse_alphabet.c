@@ -6,7 +6,7 @@
 /*   By: lukorman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 22:20:42 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/15 22:22:18 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/15 22:25:11 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,8 @@ void	ft_print_alphabet(void)
 		i--;
 	}
 }
-
-int	main(void)
+/*int	main(void)
 {
 	ft_print_alphabet();
 	return (0);
-}
+}*/
