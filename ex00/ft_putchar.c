@@ -6,7 +6,7 @@
 /*   By: lukorman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 13:19:56 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/15 17:10:38 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/15 21:36:23 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@ void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
-
 /*int	main(void)
 {
 	ft_putchar('c');
