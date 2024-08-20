@@ -6,7 +6,7 @@
 /*   By: lukorman <lukorman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/16 18:32:08 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/19 18:23:38 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/20 16:16:20 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,6 @@ void	ft_ft(int *nbr)
 // {
 // 	int	value;
 // 	ft_ft(&value);
-// 	printf("O endereço de memória é: %p.\n", &value);
-// 	printf("O valor é: %d.", value);
+// 	printf("Memory address: %p.\n", &value);
+// 	printf("Value: %d.", value);
 // }

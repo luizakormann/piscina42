@@ -1,34 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_div_mod.c                                       :+:      :+:    :+:   */
+/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lukorman <lukorman@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lukorman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/08/20 00:38:55 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/20 16:27:12 by lukorman         ###   ########.fr       */
+/*   Created: 2024/08/20 02:44:31 by lukorman          #+#    #+#             */
+/*   Updated: 2024/08/20 16:28:03 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
+void    ft_ultimate_div_mod(int *a, int *b)
 {
 	int	divr;
 	int	modr;
+	
+	divr = *a / *b;
+	modr = *a % *b;
 
-	divr = a / b;
-	modr = a % b;
-	*div = divr;
-	*mod = modr;
+        *a = divr;
+        *b = modr;
 }
 
-/*int	main(void)
+/*int   main(void)
 {
-	int	divr;
-	int	modr;
+	int	a;
+	int	b;
 
-	ft_div_mod(5, 2, &divr, &modr);
-	printf("Result: %d.\nRest: %d.", divr, modr);
-	return (0);
+	a = 5;
+	b = 2;
+        ft_ultimate_div_mod(&a, &b);
+        printf("Result: %d.\nRest: %d.", a, b);
+        return (0);
 }*/

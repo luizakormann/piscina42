@@ -6,14 +6,9 @@
 /*   By: lukorman <lukorman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 22:30:14 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/20 00:33:27 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/20 16:22:45 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// Escreva uma função que troque o conteúdo de dois inteiros cujos endereços são
-// dados como parâmetros.
-// • Ela deverá ser prototipada da seguinte maneira:
-// void ft_swap(int *a, int *b);
 
 //#include <stdio.h>
 
@@ -33,8 +28,8 @@ void	ft_swap(int *a, int *b)
 
 	valuea = 12;
 	valueb = 8;
-	printf("Valor em 'a': %d.\nValor em 'b': %d.\n\n", valuea, valueb);
+	printf("Value in 'a': %d.\nValue in 'b': %d.\n\n", valuea, valueb);
 	ft_swap(&valuea, &valueb);
-	printf("Novo valor em 'a': %d.\nNovo valor em 'b': %d.", valuea, valueb);
+	printf("New value in 'a': %d.\nNew value in 'b': %d.", valuea, valueb);
 	return (0);
 }*/

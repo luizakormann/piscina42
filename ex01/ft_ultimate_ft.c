@@ -6,7 +6,7 @@
 /*   By: lukorman <lukorman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 18:03:06 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/19 20:05:07 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/20 16:19:07 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void	ft_ultimate_ft(int *********nbr)
 //     point9 = &point8;
 
 //     ft_ultimate_ft(point9);
-//     printf("O endereço de memória: %p.\n", &point9);
-//     printf("O valor: %d.", *********point9);
+//     printf("Memory addresss: %p.\n", &point9);
+//     printf("Value: %d.", *********point9);
 //     return(0);
 // }
