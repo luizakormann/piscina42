@@ -6,7 +6,7 @@
 /*   By: lukorman <lukorman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 22:30:14 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/19 23:56:34 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/20 00:33:27 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 // • Ela deverá ser prototipada da seguinte maneira:
 // void ft_swap(int *a, int *b);
 
-#include <stdio.h>
+//#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {
@@ -26,7 +26,7 @@ void	ft_swap(int *a, int *b)
 	*b = temp;
 }
 
-int	main(void)
+/*int	main(void)
 {
 	int	valuea;
 	int	valueb;
@@ -37,4 +37,4 @@ int	main(void)
 	ft_swap(&valuea, &valueb);
 	printf("Novo valor em 'a': %d.\nNovo valor em 'b': %d.", valuea, valueb);
 	return (0);
-}
+}*/
