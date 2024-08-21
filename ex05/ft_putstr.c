@@ -6,11 +6,11 @@
 /*   By: lukorman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 19:56:13 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/20 22:50:25 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/20 23:33:46 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+//#include <unistd.h>
 
 void	ft_putstr(char *str)
 {

@@ -6,32 +6,31 @@
 /*   By: lukorman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 02:44:31 by lukorman          #+#    #+#             */
-/*   Updated: 2024/08/20 16:28:03 by lukorman         ###   ########.fr       */
+/*   Updated: 2024/08/20 23:32:01 by lukorman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
 
-void    ft_ultimate_div_mod(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	divr;
 	int	modr;
-	
+
 	divr = *a / *b;
 	modr = *a % *b;
-
-        *a = divr;
-        *b = modr;
+	*a = divr;
+	*b = modr;
 }
 
-/*int   main(void)
+/*int	main(void)
 {
 	int	a;
 	int	b;
 
 	a = 5;
 	b = 2;
-        ft_ultimate_div_mod(&a, &b);
-        printf("Result: %d.\nRest: %d.", a, b);
-        return (0);
+	ft_ultimate_div_mod(&a, &b);
+	printf("Result: %d.\nRest: %d.", a, b);
+	return (0);
 }*/
